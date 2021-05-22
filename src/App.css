@@ -1,25 +1,44 @@
+body{
+	background: #aaa;
+	margin: 0;
+	padding: 0;
+}
+
 .App {
-  text-align: -webkit-center;
+  text-align: center;
 }
 
 .main{
-  background: black;
-  height: 480px;
-  width: 480px;
+  background: #666;
+  border-radius: 5px;
+  box-shadow: 0 0 5px black;
+  border: 2px solid #666;
+  margin-left: auto;
+  margin-right: auto;
+  height: 99vw;
+  max-height: 480px;
+  width: 99vw;
+  max-width: 480px;
   margin-top: 25px;
   text-align: left;
 }
 
 h4{
-  margin-top: 15px;
-  margin-bottom: 0px;
+	background: #cfcfcf;
+	margin-top: 0;
+  margin-bottom: 10px;
+  padding: 10px;
+  color: #111;
   font-family: cursive;
   font-size: 27px;
+  box-shadow: 0 0 3px black;
 }
 
 .button{
-  height: 160px;
-  width: 160px;
+  width: 33vw;
+  max-width: 160px;
+	height: 33vw;
+  max-height: 160px;
   float: left;
   font-size: 80px;
   font-family: cursive;
@@ -33,20 +52,22 @@ h4{
   margin-top: 10px;
   padding: 10px 20px;
   border: 1px solid #0095DA;
-  border-radius: 2px;
-  background: white;
+  border-radius: 5px;
+  background: #0095DA;
+  box-shadow: 0 0 2px #0095DA;
   font-family: cursive;
   font-weight: 600;
-  color: #0095DA;
+  color: white;
   outline: none;  
   transition: all 200ms;
 }
 
 .btn-reset:hover{
   cursor: pointer;
-  background: #0095DA;
+  background: #0078AF;
   color: white;
   border-color: #0078AF;
+  box-shadow: 0 0 10px 2px #0078AF;
 }
 
 .cover{

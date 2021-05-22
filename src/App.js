@@ -76,25 +76,23 @@ class Board extends React.Component{
 
   render(){
     return(
-      <div className='App'>
-        <div className='main'>
-          <div className='box-row'>
-            {this.renderBox(0,0)}
-            {this.renderBox(0,1)}
-            {this.renderBox(0,2)}
-          </div>
-          <div className='box-row'>
-            {this.renderBox(1,0)}
-            {this.renderBox(1,1)}
-            {this.renderBox(1,2)}
-          </div>
-          <div className='box-row'>
-            {this.renderBox(2,0)}
-            {this.renderBox(2,1)}
-            {this.renderBox(2,2)}
-          </div>
-        </div>
-      </div>
+	    <div className='main'>
+	      <div className='box-row'>
+	        {this.renderBox(0,0)}
+	        {this.renderBox(0,1)}
+	        {this.renderBox(0,2)}
+	      </div>
+	      <div className='box-row'>
+	        {this.renderBox(1,0)}
+	        {this.renderBox(1,1)}
+	        {this.renderBox(1,2)}
+	      </div>
+	      <div className='box-row'>
+	        {this.renderBox(2,0)}
+	        {this.renderBox(2,1)}
+	        {this.renderBox(2,2)}
+	      </div>
+	    </div>
     )
   }
 }
