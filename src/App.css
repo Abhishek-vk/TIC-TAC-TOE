@@ -6,7 +6,7 @@ body{
 
 .App {
   text-align: center;
-  font-family: cursive,comic sans ms,Courier,Arial;
+  font-family: 'Patrick Hand', cursive;
 }
 
 .main{
@@ -41,6 +41,7 @@ h4{
   max-height: 160px;
   float: left;
   font-size: 80px;
+  font-family: 'Patrick Hand', cursive;
 }
 
 .button-m{
