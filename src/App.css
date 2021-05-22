@@ -6,6 +6,7 @@ body{
 
 .App {
   text-align: center;
+  font-family: cursive,comic sans ms,Courier,Arial;
 }
 
 .main{
@@ -29,7 +30,6 @@ h4{
   margin-bottom: 10px;
   padding: 10px;
   color: #111;
-  font-family: cursive;
   font-size: 27px;
   box-shadow: 0 0 3px black;
 }
@@ -41,7 +41,6 @@ h4{
   max-height: 160px;
   float: left;
   font-size: 80px;
-  font-family: cursive;
 }
 
 .button-m{
@@ -55,7 +54,6 @@ h4{
   border-radius: 5px;
   background: #0095DA;
   box-shadow: 0 0 2px #0095DA;
-  font-family: cursive;
   font-weight: 600;
   color: white;
   outline: none;  
