@@ -16,6 +16,8 @@ body{
 .App {
   text-align: center;
   font-family: 'Patrick Hand', cursive;
+  position: relative;
+  min-height: 100vh;
 }
 
 .main{
@@ -41,10 +43,6 @@ h4{
   color: #111;
   font-size: 27px;
   box-shadow: 0 0 3px black;
-}
-
-#content{
-	min-height: 84.4vh;
 }
 
 .button{
@@ -87,4 +85,6 @@ footer{
 	width: 100%;
 	background: #ccdeff;
 	box-shadow: 0 0 3px black;
+	position: absolute;
+	bottom: 0;
 }
