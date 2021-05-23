@@ -1,8 +1,17 @@
+html{
+	scrollbar-width: none;
+}
+
+html::-webkit-scrollbar{
+	display: none;
+}
+
 body{
-	background: #aaa;
+	background: #a3c6ff;
 	margin: 0;
 	padding: 0;
 }
+
 
 .App {
   text-align: center;
@@ -25,13 +34,17 @@ body{
 }
 
 h4{
-	background: #cfcfcf;
+	background: #ccdeff;
 	margin-top: 0;
   margin-bottom: 10px;
   padding: 10px;
   color: #111;
   font-size: 27px;
   box-shadow: 0 0 3px black;
+}
+
+#content{
+	min-height: 84.4vh;
 }
 
 .button{
@@ -49,7 +62,7 @@ h4{
 }
 
 .btn-reset{
-  margin-top: 10px;
+  margin-top: 20px;
   padding: 10px 20px;
   border: 1px solid #0095DA;
   border-radius: 5px;
@@ -69,11 +82,9 @@ h4{
   box-shadow: 0 0 10px 2px #0078AF;
 }
 
-.cover{
-  background: black;
-  position: absolute;
-  height: 480px;
-  width: 480px;
-  margin-top: 25px;
-  z-index: 9;
+footer{
+	padding: 10px 0;
+	width: 100%;
+	background: #ccdeff;
+	box-shadow: 0 0 3px black;
 }

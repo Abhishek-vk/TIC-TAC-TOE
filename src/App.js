@@ -97,17 +97,6 @@ class Board extends React.Component{
   }
 }
 
-class Clear extends React.Component{
-  render(){
-    return(
-        <div className='App'>
-          <div className='cover'>
-          </div>
-        </div>
-      )
-  }
-}
-
 class App extends React.Component{
   constructor(props){
     super(props)
@@ -142,9 +131,13 @@ class App extends React.Component{
     const {value,current,count}=this.state;
     return(
       <div className='App'>
-      <h4>TIC-TAC-TOE</h4>
-      <Board value={value} current={current} setValue={()=>this.setValue(value,current)} count={count}/>
-      <button className='btn-reset' onClick={this.resetValue}>RESET</button></div>
+      <header><h4>TIC-TAC-TOE</h4></header>
+      <div id="content">
+	      <Board value={value} current={current} setValue={()=>this.setValue(value,current)} count={count}/>
+	      <button className='btn-reset' onClick={this.resetValue}>RESET</button>
+      </div>
+      <footer></footer>
+      </div>
     )
   }
 }
