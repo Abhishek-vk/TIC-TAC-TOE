@@ -45,6 +45,13 @@ h4{
   box-shadow: 0 0 3px black;
 }
 
+#content{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-48%);
+}
+
 .button{
   width: 33vw;
   max-width: 160px;

@@ -132,8 +132,10 @@ class App extends React.Component{
     return(
       <div className='App'>
       <header><h4>TIC-TAC-TOE</h4></header>
-      <Board value={value} current={current} setValue={()=>this.setValue(value,current)} count={count}/>
-      <button className='btn-reset' onClick={this.resetValue}>RESET</button>
+      <div id="content">
+	      <Board value={value} current={current} setValue={()=>this.setValue(value,current)} count={count}/>
+	      <button className='btn-reset' onClick={this.resetValue}>RESET</button>
+      </div>
       <footer></footer>
       </div>
     )
