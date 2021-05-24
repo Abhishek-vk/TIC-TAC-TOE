@@ -1,9 +1,9 @@
-import React from 'react';
+import React,{Component} from 'react';
 import './App.css';
 
 let win=false
 
-class BoardBtn extends React.Component{
+class BoardBtn extends Component{
   render(){
     const {style,onClick,value}=this.props;
     return(
@@ -12,7 +12,7 @@ class BoardBtn extends React.Component{
   }
 }
 
-class Board extends React.Component{
+class Board extends Component{
   
   state={
     bgStyleWin:{
@@ -97,7 +97,7 @@ class Board extends React.Component{
   }
 }
 
-class App extends React.Component{
+class App extends Component{
   constructor(props){
     super(props)
     this.state={
@@ -133,7 +133,7 @@ class App extends React.Component{
       <div className='App'>
       <header><h4>TIC-TAC-TOE</h4></header>
       <div id="content">
-	      <Board value={value} current={current} setValue={()=>this.setValue(value,current)} count={count}/>
+	      <Board {...this.state} setValue={()=>this.setValue(value,current)}/>
 	      <button className='btn-reset' onClick={this.resetValue}>RESET</button>
       </div>
       <footer></footer>
